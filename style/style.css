@@ -1,0 +1,481 @@
+html {
+    scroll-behavior: smooth;
+  }
+header {
+    background-color: #EDF2EC;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    min-width: 1440px;
+    height: 134px;
+}
+.wrapper {
+    display: flex;
+    width: 1440px;
+    height: 134px;
+    margin: 0 auto; 
+}
+.navBar {
+    width: 1220px;
+    height: 50px;
+    margin: auto auto;
+}
+.logo {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+    height: 50px;
+}
+.logo li {
+    line-height: 50px;
+    float: left;
+    text-shadow: 1px 3px 3px grey;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.logo li img {
+    padding-top: 10px;
+}
+nav {
+    width: 452px;
+    height: 50px;
+    float: right;
+}
+nav ul {
+    float: right;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    float: left;
+    margin-left: 47px;
+    vertical-align: middle;
+    line-height: 50px;
+}
+nav li:first-child{
+    margin-left: 0;
+}
+nav a {
+    text-decoration: none;
+    color: #000000;
+    text-shadow: 1px 3px 2px grey;
+    transition: 5s;
+}
+nav a:hover {
+    font-weight: 700;
+    color: #E06733;
+}
+                            /*Main*/
+        /*welcome*/
+.welcome {
+    display: flex;
+    background-color: #EDF2EC;
+    font-family: 'Inter', sans-serif;
+    height: 532px;
+    min-width: 1440px;
+}
+.welcomeSection {
+    width: 1222px;
+    margin: auto auto;
+    height: 407px;
+}
+
+.welcomeImg {
+    width: 448.8px;
+    height: 407.36px;
+    align-self: center;
+}
+
+.welcomeContent {
+    float: right;
+    width: 549px;
+    height: 340px;
+    margin-top: 36px;
+}
+h1 {
+    margin: 0;
+    color: #717171;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+}
+span {
+    color: #499A18;
+}
+.welcomeContent p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #636060;
+    margin-top: 42px;
+}
+.welcomeContent button {
+    background-color: inherit;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    width: 158px;
+    height: 44px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0;
+    margin-top: 30px;
+    transition: 5s;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #636060;
+}
+        /*about*/
+.about {
+    background-color: #ffffff;
+    min-width: 1440px;
+    height: 666px;
+    display: flex;
+}       
+.aboutSection {
+    width: 1222px;
+    height: 479px;
+    margin: auto auto;
+}  
+.aboutSection img {
+    float: right;
+}  
+.aboutUsSection {
+    width: 603px;
+    height: 350px;
+} 
+.aboutUsSection h2 {
+    margin-top: 67.5px;
+    margin-bottom: 38px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #E06733;
+}
+.aboutUsSection p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+}
+        /*Service*/
+.service {
+    min-width: 1440px;
+    height: 1300px;
+    background-color: #EDF2EC;
+}
+.wrapperService {
+    width: 1222px;
+    height: 1260px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.serviceContent{
+    width: 1007px;
+    height: 94px;
+}
+.serviceContent h2 {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+    width: 306px;
+    float:left;
+    margin: 0;
+}
+.wrapperServiceButton {
+    float: right;
+    width: 559px;
+    height: 50px;
+    margin-top: 29px;
+}
+.wrapperServiceButton button {
+    width: 161px;
+    height: 48px;
+    padding: 0;
+    margin-left: 38px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    float: left;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #E06733;
+    transition: 5s;
+}
+.wrapperServiceButton .first{
+    margin-left: 0;
+}
+        /*Services*/
+.services {
+    width: 1222px;
+    height: 955px;
+    margin: 90px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 55px 116px;
+}
+.service .serviceItem:nth-child(3n+3) {
+    margin-right: 0;
+}
+.serviceItem img {
+    border-radius: 20px 20px 0px 0px;
+}
+.serviceItem div {
+    border: 1px solid #E3E1D5;
+    border-radius: 0px 0px 20px 20px;
+}
+.serviceItem  h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #E06733;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.serviceItem  p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #717171;
+    text-align: center;
+    margin-top: 13px;
+}
+.serviceItem:hover {
+    cursor: pointer;
+}
+        /*Prices*/
+.prices {
+    background-color: #ffffff;
+    min-width: 1440px;
+    height: 520px;
+    margin-top: 40px;
+}
+.pricesWrapper {
+    width: 1222px;
+    height: 405px;
+    margin: 0 auto;
+}
+.priceTariff {
+    width: 332px;
+    height: 391px;
+    float: left;
+}
+.priceContact {
+    float:right;
+    height: 405px;
+    width: 452px;
+    text-align: right;
+}
+.priceTariff h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+    margin: 0;
+}
+.wrapperPriceItem {
+    width: 330px;
+    height: 280px;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+.pricesItems {
+    width: 250px;
+    height: 214px;
+    margin: 34px 41px;
+}
+.pricesItems div {
+    width: 250px;
+    height: 50px;
+    background: #EDF2EC;
+    border-radius: 20px;
+    margin-bottom: 32px;
+    transition: 5s;
+}
+.pricesItems div:hover {
+    cursor: pointer;
+    background-color: #717171;
+}
+.pricesItems p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000;
+    margin: 0 0 0 40px;
+    width: 100px;
+    float: left;
+}
+.pricesItems img {
+    float:right;
+    margin: 17px 40px;
+}
+.priceContact h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+    margin: 0;
+    text-align: right;
+}
+.priceContact button{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    width: 162px;
+    height: 50px;
+    background-color: inherit;
+    text-align: center;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    color: #E06733;
+    margin-top: 2px;
+    transition: 5s;
+}
+.priceContact button:hover {
+    background-color: #717171;
+}
+.priceContact div{
+    margin-top: 38px;
+    height: 50px;
+}
+.priceContact img {
+    margin-top: 35px;
+    margin-right: -8px;
+}
+        /*Contact*/
+.contact {
+    background-color: #EDF2EC;
+    min-width: 1440px;
+    height: 497px;
+    padding-top: 53px;
+}
+.wrapperContact {
+    height: 497px;
+    width: 1222px;
+    margin: 0 auto;
+}
+.wrapperContact h2 {
+    display: inline-block;
+    margin: 7px 0 0 110px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+    vertical-align: top;
+}
+.contactCity {
+    width: 450px;
+    height: 50px;
+    background: #D6E7D2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    float: right;
+    margin-top: 95px;
+    vertical-align: middle;
+}
+.contactCity p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: #717171;
+    margin: 0 0 0 20px;
+    float: left;
+}
+.contactCity img {
+    float: right;
+    margin: 17px 35px;
+}
+.contactCity:hover {
+    cursor: pointer;
+}
+                /*footer*/
+footer {
+    min-width: 1440px;
+    background-color: #ffffff;
+    height: 50px;
+    padding: 40px 0;
+}  
+.footer {
+    height: 50px;
+    width: 1222px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+}
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footerData {
+    float: left;
+}
+.footerData li {
+    float: left;
+    line-height: 50px;
+    margin-right: 22px;
+}
+footer {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+footer a {
+    text-decoration: none;
+    color: #000000;
+    transition: 5s;
+}
+.footerData li a:hover{
+    color: #E06733;
+}
+.sociaMedia {
+    float: right;
+}
+.sociaMedia li {
+    float:left;
+    line-height: 50px;
+    margin-left: 20px;
+}
+.sociaMedia li a img{
+    vertical-align: middle;
+}
+.rsschool {
+    margin-left: 15px;
+}
+.rsschool:hover {
+    color: #E06733;
+}
